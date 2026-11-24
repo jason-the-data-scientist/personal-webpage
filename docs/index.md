@@ -21,7 +21,7 @@ Data Scientist with over 5 years of experience applying machine learning, experi
 - Design and analyze A/B tests within the claims department to evaluate the impact of various AI initiatives affecting hundreds of employees
 - Standardize business impact measurement methodologies, streamlining experimental design and readout workflows to accelerate data-driven rollout decisions.
 - Execute causal inference analyses to quantify the multi-million-dollar impact of claim quality on Allstate's bottom line, isolating true program value from external operational trends.
-- Mentor data science interns and suport the department as an elected member of the employee council.
+- Mentor data science interns and coordinate as a member of the data science community of practice.
 
 ### Data Scientist — Auto Claims
 **Allstate** — Remote  
