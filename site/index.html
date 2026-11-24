@@ -1,0 +1,787 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.example.com/">
+      
+      
+      
+      
+      
+        <link rel="next" href="./projects/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="./assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.1.3">
+    
+    
+      
+        <title>Jason Colgrove - Documentation</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="./assets/stylesheets/modern/main.e2cf241e.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="./assets/stylesheets/modern/palette.b60ce83d.min.css">
+      
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
+    <div data-md-component="skip">
+      <a href="#__skip" class="md-skip">
+        Skip to content
+      </a>
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="" title="Documentation" class="md-header__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      <span class="md-visually-hidden">Navigation</span>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Jason Colgrove
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun-moon" viewBox="0 0 24 24"><path d="M12 2v2M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715M16 12a4 4 0 0 0-4-4M19 5l-1.256 1.256M20 12h2"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+          <span class="md-visually-hidden">Search</span>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="" title="Documentation" class="md-nav__button md-logo" aria-label="Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Jason Colgrove
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Jason Colgrove
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Summary
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Work Experience
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Work Experience">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-scientist-measurement-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Scientist — Measurement Science
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-scientist-auto-claims" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Scientist — Auto Claims
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-analyst-graduate-assistant" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Analyst Graduate Assistant
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-analyst-intern" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Analyst Intern
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#professional-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Professional Skills
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#education" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Education
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#master-of-science-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Master of Science, Statistics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bachelor-of-science-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bachelor of Science, Statistics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./projects/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Projects
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Summary
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#work-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Work Experience
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Work Experience">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#data-scientist-measurement-science" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Scientist — Measurement Science
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-scientist-auto-claims" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Scientist — Auto Claims
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-analyst-graduate-assistant" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Analyst Graduate Assistant
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-analyst-intern" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Data Analyst Intern
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#professional-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Professional Skills
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#education" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Education
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Education">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#master-of-science-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Master of Science, Statistics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bachelor-of-science-statistics" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Bachelor of Science, Statistics
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                <a id="__skip" tabindex="-1"></a>
+                
+                  
+
+
+<h1 id="jason-colgrove">Jason Colgrove<a class="headerlink" href="#jason-colgrove" title="Permanent link">&para;</a></h1>
+<p><img src="profile_pic.jpg" alt="profile picture" width="150"></p>
+<p><a href="https://linkedin.com/in/jason-colgrove">LinkedIn</a> | <a href="mailto:jason4stma@gmail.com">jason4stma@gmail.com</a></p>
+<hr />
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">&para;</a></h2>
+<p>Data Scientist with over 5 years of experience applying machine learning, experimentation, and statistical analysis to drive data-informed business and operational decisions. Proven record of delivering multi-million-dollar cost savings and building scalable analytical solutions.</p>
+<hr />
+<h2 id="work-experience">Work Experience<a class="headerlink" href="#work-experience" title="Permanent link">&para;</a></h2>
+<h3 id="data-scientist-measurement-science">Data Scientist — Measurement Science<a class="headerlink" href="#data-scientist-measurement-science" title="Permanent link">&para;</a></h3>
+<p><strong>Allstate</strong> — Remote<br />
+<em>April 2026–Present</em></p>
+<ul>
+<li>Design and analyze A/B tests within the claims department to evaluate the impact of various AI initiatives affecting hundreds of employees</li>
+<li>Standardize business impact measurement methodologies, streamlining experimental design and readout workflows to accelerate data-driven rollout decisions.</li>
+<li>Execute causal inference analyses to quantify the multi-million-dollar impact of claim quality on Allstate's bottom line, isolating true program value from external operational trends.</li>
+<li>Mentor data science interns and suport the department as an elected member of the employee council.</li>
+</ul>
+<h3 id="data-scientist-auto-claims">Data Scientist — Auto Claims<a class="headerlink" href="#data-scientist-auto-claims" title="Permanent link">&para;</a></h3>
+<p><strong>Allstate</strong> — Remote<br />
+<em>2022–2026</em></p>
+<ul>
+<li>Developed machine learning models that increased vehicle inspections for in-network repair shops by 5%, lowering costs and improving customer experience.</li>
+<li>Created Tableau and Power BI dashboards that support $30 million+ in annual labor expense decisions.</li>
+<li>Designed and analyzed A/B tests using statistical inference to improve auto claim inspection quality, resulting in $3M+ in annual savings.</li>
+<li>Built and maintained internal Python packages for a team of 5+ data scientists, improving code reusability.</li>
+</ul>
+<h3 id="data-analyst-graduate-assistant">Data Analyst Graduate Assistant<a class="headerlink" href="#data-analyst-graduate-assistant" title="Permanent link">&para;</a></h3>
+<p><strong>Texas A&amp;M University</strong> — Remote<br />
+<em>2021–2022</em></p>
+<ul>
+<li>Developed a new course for undergraduate students covering data analytics, statistics, and R.</li>
+<li>Built 100+ hands-on coding exercises in R to strengthen students' programming and analytical skills.</li>
+<li>Applied data science techniques—including optimization, data and text mining, time series, simulation, regression, and NLP—to solve business problems.</li>
+</ul>
+<h3 id="data-analyst-intern">Data Analyst Intern<a class="headerlink" href="#data-analyst-intern" title="Permanent link">&para;</a></h3>
+<p><strong>USAA</strong> — Remote<br />
+<em>2021</em></p>
+<ul>
+<li>Analyzed credit card risks and developed policy changes that reduced fraud and credit abuse by $100,000+ and could affect more than 5 million members.</li>
+<li>Designed an automated Tableau dashboard for executives to monitor $1M+ in fraud losses.</li>
+<li>Communicated complex analytical and technical concepts to non-technical employees.</li>
+</ul>
+<hr />
+<h2 id="professional-skills">Professional Skills<a class="headerlink" href="#professional-skills" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Programming:</strong> Python, SQL, R, Spark, SAS</li>
+<li><strong>Modeling:</strong> Machine Learning, Regression, Classification, Clustering</li>
+<li><strong>Experimentation:</strong> A/B Testing, Casual Inference, Experimental Design, Power Analysis, Statistical Analysis</li>
+<li><strong>Visualization:</strong> Power BI, Tableau, Dash, Seaborn, Streamlit</li>
+<li><strong>Cloud Platforms:</strong> AWS, Azure, Fabric</li>
+<li><strong>Other:</strong> Git, Linux, Jenkins</li>
+</ul>
+<hr />
+<h2 id="education">Education<a class="headerlink" href="#education" title="Permanent link">&para;</a></h2>
+<h3 id="master-of-science-statistics">Master of Science, Statistics<a class="headerlink" href="#master-of-science-statistics" title="Permanent link">&para;</a></h3>
+<p><em>Texas A&amp;M University</em> — College Station, TX  </p>
+<h3 id="bachelor-of-science-statistics">Bachelor of Science, Statistics<a class="headerlink" href="#bachelor-of-science-statistics" title="Permanent link">&para;</a></h3>
+<p><em>Brigham Young University</em> — Provo, UT  </p>
+<ul>
+<li>University Honors (awarded to approximately 1% of graduates)</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+        
+          
+          <a href="./projects/" class="md-footer__link md-footer__link--next" aria-label="Next: Projects">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Projects
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog" role="status" aria-atomic="true">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":".","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"redirect":null,"search":"./assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","clipboard.error":"Could not copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="./assets/javascripts/bundle.9e76c64c.min.js"></script>
+      
+      
+    
+  </body>
+</html>
