@@ -8,7 +8,7 @@
 
 ## Summary
 
-Data Scientist with over 5 years of experience applying machine learning, experimentation, and statistical analysis to drive data-informed business and operational decisions. Proven record of delivering multi-million-dollar cost savings and building scalable analytical solutions.
+Data Scientist with 5+ years of experience in causal inference, experimentation, and machine learning, with a proven track record of delivering multi-million-dollar cost savings. Skilled at building rigorous measurement frameworks and predictive models to evaluate initiatives and drive operational improvements.
 
 ---
 
@@ -19,26 +19,29 @@ Data Scientist with over 5 years of experience applying machine learning, experi
 *April 2026–Present*
 
 - Design and analyze A/B tests within the claims department to evaluate the impact of various AI initiatives affecting hundreds of employees
-- Standardize business impact measurement methodologies, streamlining experimental design and readout workflows to accelerate data-driven rollout decisions.
-- Execute causal inference analyses to quantify the multi-million-dollar impact of claim quality on Allstate's bottom line, isolating true program value from external operational trends.
-- Mentor data science interns and coordinate as a member of the data science community of practice.
+- Establish standardized A/B testing frameworks and readout templates across claims teams to consistently measure whether new initiatives actually delivered value and inform rollout decisions
+- Apply causal inference methodologies to quantify the multi-million-dollar impact of claim quality on Allstate's loss costs
+- Mentor data science interns and contribute to the data science community of practice
+
 
 ### Data Scientist — Auto Claims
 **Allstate** — Remote  
 *2022–2026*
 
-- Developed machine learning models that increased vehicle inspections for in-network repair shops by 5%, lowering costs and improving customer experience.
-- Created Tableau and Power BI dashboards that support $30 million+ in annual labor expense decisions.
-- Designed and analyzed A/B tests using statistical inference to improve auto claim inspection quality, resulting in $3M+ in annual savings.
-- Built and maintained internal Python packages for a team of 5+ data scientists, improving code reusability.
+- Developed machine learning models that increased vehicle inspections for in-network repair shops by 5%, lowering costs and improving customer experience
+- Created Tableau and Power BI dashboards that drive $30M+ in annual labor expense decisions
+- Designed and analyzed A/B tests using statistical inference to improve auto claim inspection quality, resulting in $3M+ in annual savings
+- Built and maintained internal Python packages for my team of 5+ data scientists, improving code reusability
+
 
 ### Data Analyst Graduate Assistant
 **Texas A&M University** — Remote  
 *2021–2022*
 
-- Developed a new course for undergraduate students covering data analytics, statistics, and R.
-- Built 100+ hands-on coding exercises in R to strengthen students' programming and analytical skills.
-- Applied data science techniques—including optimization, data and text mining, time series, simulation, regression, and NLP—to solve business problems.
+- Developed a new course for undergraduate university students to learn data analytics, statistics, and R
+- Built 100+ hands-on coding exercises in R to strengthen students’ programming and analytical skills
+- Applied data science techniques including optimization, data and text mining, time series, simulation, regression, and NLP to solve business problems
+
 
 ### Data Analyst Intern
 **USAA** — Remote  
@@ -52,12 +55,13 @@ Data Scientist with over 5 years of experience applying machine learning, experi
 
 ## Professional Skills
 
-- **Programming:** Python, SQL, R, Spark, SAS
-- **Modeling:** Machine Learning, Regression, Classification, Clustering
-- **Experimentation:** A/B Testing, Casual Inference, Experimental Design, Power Analysis, Statistical Analysis
-- **Visualization:** Power BI, Tableau, Dash, Seaborn, Streamlit
-- **Cloud Platforms:** AWS, Azure, Fabric
-- **Other:** Git, Linux, Jenkins
+- **Languages**: Python (NumPy, Pandas, scikit-learn, XGBoost, statsmodels), SQL, R, Spark, SAS
+- **Machine Learning & Statistics**: Regression, Classification, Clustering, Predictive Modeling, Statistical Modeling
+- **Experimentation & Causal Inference**: A/B Testing, Causal Inference, Statistical Inference, Experimental Design, Power Analysis 
+- **BI & Tools**: Power BI, Tableau, Dash
+- **Cloud Platforms**: AWS, Azure, Microsoft Fabric
+- **DevOps & Engineering**: Git, Linux, CI/CD, Python Packaging
+
 
 ---
 
