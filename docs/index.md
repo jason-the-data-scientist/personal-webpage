@@ -1,6 +1,6 @@
 # Resume
 
-# Jason Colgrove
+## Jason Colgrove
 
 <img src="profile_pic.jpg" alt="profile picture" width="150">
 
