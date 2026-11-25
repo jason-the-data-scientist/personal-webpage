@@ -25,7 +25,7 @@
 
 ---
 
-## Linear Regression
+### Linear Regression
 
 - [Link](https://github.com/jason-the-data-scientist/Logistic-Regression/tree/master)
 - This was a final for a university-level linear regression course. 
