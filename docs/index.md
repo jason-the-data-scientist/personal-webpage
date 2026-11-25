@@ -2,9 +2,9 @@
 
 ## Jason Colgrove
 
-<img src="profile_pic.jpg" alt="profile picture" width="150">
-
 [LinkedIn](https://linkedin.com/in/jason-colgrove) | [jason4stma@gmail.com](mailto:jason4stma@gmail.com)
+
+<img src="profile_pic.jpg" alt="profile picture" width="150">
 
 ---
 
