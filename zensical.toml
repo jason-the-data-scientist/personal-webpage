@@ -1,6 +1,6 @@
 [project]
 site_url = "https://jason-the-data-scientist.github.io/personal-webpage"
-site_name = "Documentation"
+site_name = "Jason Colgrove Webpage"
 site_description = "Jason Colgrove Resume and Projects"
 site_author = "Jason Colgrove"
 
@@ -31,6 +31,7 @@ features = [
 ]
 
 logo = "profile_pic.jpg"
+favicon = "profile_pic.jpg"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
