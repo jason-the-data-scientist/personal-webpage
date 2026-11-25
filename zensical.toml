@@ -1,7 +1,7 @@
 [project]
 site_url = "https://jason-the-data-scientist.github.io/personal-webpage"
 site_name = "Jason Colgrove Webpage"
-site_description = "Jason Colgrove Resume and Projects"
+site_description = "Jason Colgrove Resume and Portfolio"
 site_author = "Jason Colgrove"
 
 copyright = "Copyright &copy; 2026 Jason Colgrove"
