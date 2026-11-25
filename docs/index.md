@@ -6,13 +6,13 @@
 
 ---
 
-## Summary
+## SUMMARY
 
 Data Scientist with 5+ years of experience in causal inference, experimentation, and machine learning, with a proven track record of delivering multi-million-dollar cost savings. Skilled at building rigorous measurement frameworks and predictive models to evaluate initiatives and drive operational improvements.
 
 ---
 
-## Work Experience
+## WORK EXPERIENCE
 
 ### Data Scientist — Measurement Science
 **Allstate** — Remote  
@@ -34,7 +34,7 @@ Data Scientist with 5+ years of experience in causal inference, experimentation,
 - Built and maintained internal Python packages for my team of 5+ data scientists, improving code reusability
 
 
-### Data Analyst Graduate Assistant
+### Graduate Assistant — Data Analyst
 **Texas A&M University** — Remote  
 *2021–2022*
 
@@ -43,7 +43,7 @@ Data Scientist with 5+ years of experience in causal inference, experimentation,
 - Applied data science techniques including optimization, data and text mining, time series, simulation, regression, and NLP to solve business problems
 
 
-### Data Analyst Intern
+### Data Analyst — Intern
 **USAA** — Remote  
 *2021*
 
@@ -53,7 +53,7 @@ Data Scientist with 5+ years of experience in causal inference, experimentation,
 
 ---
 
-## Professional Skills
+## SKILLS
 
 - **Languages**: Python (NumPy, Pandas, scikit-learn, XGBoost, statsmodels), SQL, R, Spark, SAS
 - **Machine Learning & Statistics**: Regression, Classification, Clustering, Predictive Modeling, Statistical Modeling
@@ -65,7 +65,7 @@ Data Scientist with 5+ years of experience in causal inference, experimentation,
 
 ---
 
-## Education
+## EDUCATION
 
 ### Master of Science, Statistics
 _Texas A&M University_ — College Station, TX  
